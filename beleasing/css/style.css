@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+
+
+.header 
+{
+    height: 80px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    position: relative;
+    padding: 10px;
+}
+
+.logo img
+{
+    width: 190px;
+    padding-left: 30px;
+}
+ul 
+{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links li
+{
+    margin-left: 35px;
+    
+}
+     
+.nav-links li a
+{
+    text-decoration: none;
+    color :#fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 8px;
+    position: relative;
+    transition: backgrund-color 0.3 case;
+}
+a::after{
+    content: "";
+    position: absolute;
+    top: -20px;
+
+    right: -1px;
+    height: 75px;
+    width: 1px;
+    background-color: rgb(50, 50, 50)
+}
+.nav-links li a:hover
+{
+    background-color: rgba(128, 46, 143, 0.8);
+    
+}
+.baner
+{
+    height: 695px;
+    
+      
+}
+.car
+{
+      
+    background-image: url(../image/leasing-slider-bg.jpg);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size: 103%;
+    overflow: hidden;
+    
+}
+.y
+{
+    z-index: 5;
+    background-color: rgba(128, 46, 143, 0.8);
+    color : rgb(255, 255, 255);
+    width: 500px;
+    height: 280px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    visibility: visible;
+    margin-top: 20%;
+    margin-left: 10%;
+    text-align: left;
+    word-spacing: 10px;
+    font-size: 22px;
+    padding-left: 50px;
+    
+}
+.more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .more-button:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .more-button:focus {
+    outline: none;
+  }
+  
+  .scroll-for-more {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "DM Sans";
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 1150px;
+    margin-top: -350px;
+
+  }
+  .errow
+  {
+    position: absolute;
+    top: 91%;
+    left: 95%;
+  }
+
+  .p
+{
+    padding-top: 150px;
+    padding-bottom: 125px;
+    margin-left:90px;
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+} 
+.main
+{
+    height: 900px;
+    width: 1200px;
+    justify-content: center;
+    margin: 0 auto; 
+}
+.stock
+{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around; */
+    margin: auto;
+    text-align: center;
+    justify-content: space-around;
+    }
+.items
+{
+  
+    flex-basis: 28%;
+    margin: -70px 0px;
+    padding: 0px 20px;
+    text-align: left; 
+}
+
+.items p{
+    font-size: 30px;
+} 
+.see
+{
+    height: 40px;
+    width: 350px;
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    margin: 200px auto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 40px;
+    
+    
+}
+.sub
+{
+    width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-around;
+    margin: -300px auto;
+    padding: 0px 150px;
+}
+    
+.cal-img
+{
+    height: 700px;
+    weight: 600px;
+}
+
+.right-content .g1
+{
+    color: green;
+    font-size: 20px;
+    font-weight: 400;
+}
+.right-content .g2
+{
+    font-size: 28px;
+    font-weight: bolder;
+    
+
+}
+.right-content .g3
+{
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.right-content .g4
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.right-content .g5
+{
+    height: 40px;
+    width: 120px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-family: poppins;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 1px 30px;
+    transform-origin: 50% 50%;
+    opacity: 1;
+    transform: translate(0px, 0px);
+    visibility: visible;
+    text-align: center;
+}
+ .black
+{
+    width: 1470px;
+    background-color: #000;
+    padding: 100px;
+    margin: 400px auto;
+       
+}
+.l p
+{
+    font-size: 20px;
+    color: rgb(240, 240, 240);
+}
+.l h1
+{
+    font-size: 60px;
+    font-weight: bolder;
+    color: rgb(240, 240, 240);
+    letter-spacing: 0px;
+    line-height: 54px;
+
+}
+.popular
+{
+    margin: 100px auto;
+    display: flex;
+}
+.first
+{
+    height: 500px;
+    width: 1600px;
+    background-image: url(../image/leasing-single-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+    
+}
+.first .f1
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+    
+
+}
+.second
+{
+    
+    margin: -70px auto;
+    padding: 20px;
+    
+       
+}
+
+.s1
+{
+    height: 250px;
+    width: 450px;
+    background-image: url(../image/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.s1 .f2
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+
+}
+.s2
+{
+    height: 250px;
+    width: 450px;
+    
+    background-image: url(../image/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.s2 .f3
+{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.launch
+{
+   
+    margin: -500px auto;
+    background-color: #fff;
+    
+    height: 700px;
+    
+}
+.con
+{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding-left: 100px;
+    padding-top: 100px;
+    height: 250px;
+
+}
+.be
+{
+    height: 400px;
+    width: 1475px;
+    
+    display: flex;
+    padding-left: 100px;
+    padding-top: 50px;
+    
+
+    
+}
+.be .left-o
+{
+    height: 200px;
+    width: 600px;
+    
+}
+.be .left-o .j1
+{
+    font-size: 20px;
+    
+    color: #000;
+}
+.be .left-o .j2
+{
+    font-size: 15px;
+}
+.be .left-o .j3
+{
+    font-size: 12px;
+    height: 40px;
+    width: 150px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    line-height: 40px;
+    text-align: center;
+}
+.be .right-o
+{
+    height: 300px;
+    width: 600px;
+   
+    margin: -100px;
+    background-image: url(../image/3.jpg);
+    background-size: cover;
+    
+}
+
+ .chat
+{
+    height: 400px;
+    width: 1475px;
+    
+    display:flex;
+    justify-content: center;
+    margin: 400px auto;
+
+
+
+}
+.one-s 
+{
+    flex-basis: 26%;
+    
+    margin-top: 150px;
+    margin-left: 120px;
+}
+.one-s h1
+{
+    font-size: 60px;
+    font-weight: 600;
+    color: #802e8f;
+
+}
+
+.one-s h3
+{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+
+}
+
+.one-s p
+{
+    font-size: 13px;
+    font-weight: 300;
+    color: black;
+
+}
+.click
+{
+ height: 50px;
+ width: 400px;
+ font-size: 21px;
+ font-weight: 500;
+ text-align: center;
+ background-color: #802e8f;
+ color: #fff;
+ margin: -300px auto;
+ line-height: 45px;
+ }
+ .footer
+ {
+    height: 400px;
+    width: 1475px;
+    background-color: #efedf0;
+    
+    margin: 400px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+ } 
+ .leftbless
+ {
+    height: 400px;
+    width: 730px;
+    
+    
+    
+ }
+ .blesslogo
+ {
+    background-image: url(../image/4.png);
+    height: 52px;
+    width: 223px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 100px;
+ }
+ .leftbless h2
+{
+    font-size: 27px;
+    font-weight: 500;
+    margin: -100px;
+    margin-left: 100px;
+}
+ .rightbless
+ {
+    height: 400px;
+    width: 730px;
+    
+   
+
+ }
+ .rr
+ {
+    margin: 100px;
+    margin-left: 100px;
+
+ }
+ .email-form {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="email"] {
+    width: 250px;
+    padding: 11px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 11px 25px 11px 25px;
+    font-size: 17px;
+    font-family: Jost;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .fcpy
+  {
+    height: 70px;
+    width: 1475px;
+    background-color: #efedf0;
+    margin: -400px auto;
+    border: 1px solid lightslategray; 
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .soc2
+  {
+    margin: 20px auto;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+ 
+ 
